@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: #fafafa;
+    color: #151313;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.1em;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}a:hover{
+    color: #4d82f5;
+    transition: 0.1s;
+}
+
+.vacuum{
+    height: 40px;
+}
+
+#bluetext{
+    color: #4d82f5;
+}
+
+#main-words{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
+#smalltext{
+    font-size: 0.7em;
+}
+
+.jobs{
+    margin-top: 30px;
+    width: 100;
+    color: #4d82f5;
+}
+#blacktext{
+    color: #4d82f5;
+}
+#blacktext:hover{
+    color: #151313;
+}
+
+#small2text{
+    font-size: 0.5em;
+}
+
+
+footer{
+    font-size: 0.5em;
+    background-color: #232326;
+    color: #fafafa;
+} footer a{
+    color: #fafafa;
+}
+
+
+
+
