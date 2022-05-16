@@ -1,11 +1,24 @@
+/*font-family: 'Nunito', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/*font-family: 'Amatic SC', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+/*font-family: 'Press Start 2P', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 html, body {
   height: 100%;
   overflow: hidden;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Amatic SC', cursive;
 }
 body {
   margin: 0;
+  background-image: url('https://static.wikia.nocookie.net/animal-jam-clans-1/images/2/2e/Custom_box_background_i_believe_in_pink_by_king_lulu_deer-dce971x.gif/revision/latest?cb=20190113170621');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
 }
 
 .header {
@@ -24,7 +37,7 @@ body {
 
 .flex-item {
   color: rgb(37, 33, 33);
-  font-size: 3em;
+  font-size: 4em;
 }
 
 #app {
