@@ -15,9 +15,10 @@ html, body {
 }
 body {
   margin: 0;
-  background-image: url('../../misc/gif/bg.gif');
+  background: url('../../misc/gif/bg.gif') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+  background-position: center;
   padding:0;
 }
 
