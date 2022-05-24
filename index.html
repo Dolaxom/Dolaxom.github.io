@@ -3,17 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>neko site!</title>
+    <title>neko time!</title>
     <link rel="stylesheet" href="src/css/index.css">
   </head>
   <body>
     <canvas id="app"></canvas>
     <header class="header">
-        <a href="">header</a>
-      </header>
+      <a href="index.html" class="logo">neko time!</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#Nekogotchi">Nekogotchi</a></li>
+        <li><a href="#about">Статьи</a></li>
+        <li><a href="#careers">Аниме</a></li>
+        <li><a href="#contact">Связь</a></li>
+      </ul>
+    </header>
     <div class="flex-container">
         <div class="row"> 
-            <div class="flex-item">Кошкодевочки!</div>
+            <div class="flex-item"><p id="neko">Кошкодевочки!</p></div>
         </div>
     </div>
 
