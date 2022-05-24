@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  font-size: 4em;
+  margin-top: 150px;
+}
+
+.flex-item a {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  text-decoration: none;
+} .flex-item a:hover {
+  text-decoration: underline;
+}
